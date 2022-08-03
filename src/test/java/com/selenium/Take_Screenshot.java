@@ -22,7 +22,7 @@ public class Take_Screenshot {
 		driver1.findElement(By.name("email")).sendKeys("anny");
 		TakesScreenshot ts = (TakesScreenshot) driver1;
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("./Screenshot"+"facebook"+".png");
+		File destFile = new File("./Screenshot/"+"facebook"+".png");
 		FileHandler.copy(srcFile,destFile);
 		
 	}
