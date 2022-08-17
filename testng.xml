@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.selenium.Wait"/>
+      <class name="com.selenium.Get_Method_Display"/>
+      <class name="com.selenium.PopUps"/>
+      <class name="com.selenium.linkVisble"/>
+      <class name="com.selenium.Expected_Page_Displayed"/>
+      <class name="com.selenium.handle_Windows"/>
+      <class name="com.selenium.Create_Account"/>
+      <class name="com.selenium.Fb_Hight_Width"/>
+      <class name="com.selenium.Email"/>
+      <class name="com.selenium.Java_Excutor"/>
+      <class name="com.selenium.Facebook_Login"/>
+      <class name="com.selenium.Xpath_Facebook_Signup"/>
+      <class name="com.selenium.HiddenDivisionpopup"/>
+      <class name="com.selenium.Handling_Frames"/>
+      <class name="com.selenium.Action_CIS_Method"/>
+      <class name="com.selenium.UserInput"/>
+      <class name="com.selenium.Take_Screenshot"/>
+      <class name="com.selenium.Facebook_AlignMent"/>
+      <class name="com.selenium.Robot_Class_Methods"/>
+      <class name="com.selenium.WebElement_Interface_Methods"/>
+      <class name="com.selenium.Xpath_Facebook_Login"/>
+      <class name="com.selenium.Facebook_ActiTimeLink"/>
+      <class name="com.selenium.LaunchBrowers"/>
+      <class name="com.selenium.FileUpload"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

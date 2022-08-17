@@ -12,8 +12,7 @@ public class FileUpload {
 	public static WebDriver driver;
 	@BeforeTest
 	public void launchrowser(){
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Downloads\\chromedriver_win32\\chromedriver.exe");
-//	    driver = new ChromeDriver();
+	
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
 }

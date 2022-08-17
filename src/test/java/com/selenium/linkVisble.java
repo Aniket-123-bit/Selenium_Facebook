@@ -29,7 +29,7 @@ public class linkVisble {
 		System.out.println("total number of links present on the web page is : "+totalLinks);
 		int visibleLinkCount = 0;
 		int hiddenLinkCount = 0;
-		//using foreach loop, iterate through all the links
+		//using for each loop, iterate through all the links
 		for (WebElement link : allLinks) {
 		//if the link is displayed, then print the text of the link
 		if (link.isDisplayed()) {
